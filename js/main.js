@@ -4,7 +4,20 @@ const lista = document.querySelector('.lista');
 form.addEventListener('submit', (evento) => {
     evento.preventDefault();
 
-    criaElemento(evento.target.elements['nome'].value, evento.target.elements['quantidade'].value);
+    const nome = evento.target.elements['nome'];
+    const quantidade = evento.target.elements['quantidade'];
+
+    if(nome.value != "" && quantidade.value != ""){
+        criaElemento(nome.value, quantidade.value);
+
+        nome.value = "";
+        quantidade.value = "";
+
+    }
+
+
+
+
     
 })
 
