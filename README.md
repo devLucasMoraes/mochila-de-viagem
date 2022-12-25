@@ -6,7 +6,7 @@ Curso de JavaScript na Web: armazenando dados no navegador
 | -------------  | --- |
 | :sparkles: Nome        | mochila-de-viagem
 | :label: Tecnologias | javascript, html, css
-| :rocket: URL         |
+| :rocket: URL         | https://mochila-de-viagem-sigma.vercel.app/
 | :fire: Desafio     | 
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
