@@ -3,6 +3,7 @@ html {
     height: 100%;
     font-family: 'Roboto', cursive;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .conteudo {
